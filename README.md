@@ -10,5 +10,5 @@ Open terminal and run `npm install` to install all required packages. <br>
 Change configurations in [`obfuscator.js`](https://github.com/KaizOffical/Obfuscator/blob/main/obfuscator.js#L31) <br>
 > Read the tutorial from line 31 to line 42. <br>
 > Change to code/configurations from line 44 to line 49. <br>
-> One more addtional configuration in line 52 about obfuscate times. Just specify any integer but make sure it greater than 0 <br>
+> One more configuration in line 52 about obfuscate times. Just specify any integer but make sure it greater than 0 <br>
 Finally, run `node .` or `npm start` or `npm run start` (they are the same) to run the code.  <br>
