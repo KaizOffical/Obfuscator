@@ -2,9 +2,9 @@
   "name": "NodeJS-Obfuscator",
   "version": "1.0.0",
   "description": "This is an obfuscator for NodeJS Project, it helps you to obfuscate your whole project quickly",
-  "main": "index.js",
+  "main": "obfuscator.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node obfuscator.js"
   },
   "keywords": [],
   "author": "KaizOffical",
