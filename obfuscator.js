@@ -52,6 +52,9 @@ const dirs = [
 const ObfuscateTimes = 5;
 
 // DO NOT TOUCH THE CODE BELOW
+if(!ObfuscatedPath || ObfuscatedPath == '') return console.log(`[OBFUSCATOR] Please enter a valid obfuscated output path`);
+if(!dirs || dirs.length == 0) return console.log(`[OBFUSCATOR] Please enter directories to obfuscate them`);
+if(!ObfuscateTimes || ObfuscateTimes <= 0) return console.log(`[OBFUSCATOR] Please enter a valid integer > 0`);
 dirs.forEach(async (dir) => {
   const Files = await globPromise(`${dir.replaceAll('~', `${process.cwd()}`)}`);
   Files.map(async (File) => {
