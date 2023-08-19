@@ -41,7 +41,8 @@ function obfuscate(code, time) {
 // Set output path for obfuscated code to variable `ObfuscatedPath`
 // '~' is current project path
 
-const ObfuscatedPath = '~/dist';
+// Example code
+const ObfuscatedPath = '~/dist'; // Obfuscated code will be created in ./dist/path/to/file/ (origin code)
 const dirs = [
   '~/src/*.js', // all .JS file in ./src
   '~/src/**/*.js' // all .JS file in all folders in ./src
