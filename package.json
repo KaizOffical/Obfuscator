@@ -1,0 +1,16 @@
+{
+  "name": "NodeJS-Obfuscator",
+  "version": "1.0.0",
+  "description": "This is an obfuscator for NodeJS Project, it helps you to obfuscate your whole project quickly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "KaizOffical",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "javascript-obfuscator": "^4.0.2"
+  }
+}
